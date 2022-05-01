@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etch a sketch</title>
+    <link rel="stylesheet" href="./etchAsketch.css">
+    <script src="./etchAsketch.js" defer></script>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="title">
+            <h1>Etch A Sketch</h1>
+        </div>
+
+        <div class="mode">Mode : coloring</div>
+
+        <div class="content">
+            <div class="board"></div>
+
+            <div class="buttons">
+                <button onclick="changeColor('black')" >Black</button>
+                <button onclick="changeColor('white')" >rubbed</button>
+                <button onclick="changeColor('random')">Random</button>
+                <button class="reset" onclick="resetBoard()">Reset</button>
+            </div>
+
+            <div>
+                <input type="text" placeholder="size of board" value="16" onchange="changeSize(this.value)">
+                <button>Set size</button>
+            </div>
+
+            <div class="error">
+                number do se bada aur 100 se chhota hona chahiye
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
