@@ -1,5 +1,5 @@
 # Etch A Sketch
-The Etch A Sketch is a simple drawing tool that allows users to create drawings using their mouse. The tool can be accessed [here](https://hokagecv.github.io/etchAsketch/)
+The [Etch A Sketch](https://hokagecv.github.io/etchAsketch/) is a simple drawing tool that allows users to create drawings using their mouse.
 
 ## Features
 - Simple and easy-to-use interface
